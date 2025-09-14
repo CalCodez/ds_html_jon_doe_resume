@@ -1,25 +1,30 @@
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Calvin Colbert's Resume</title>
+		<link rel="stylesheet" href="./css/styles.css" />
+		<title>Calvin Colbert's resume</title>
 	</head>
-	<body>
-		<h1>Calvin Colbert</h1>
+	<body class="fancy-body">
+		<h1 id="candidate-name">Calvin Colbert</h1>
 
-		<h2>Talented Frontend Developer</h2>
-		<img src="./assets/avatars/fake_person.jpg" alt="" />
+		<h2 id="candidate-desired-role">Talented Frontend developer</h2>
+		<img
+			id="candidate-image"
+			src="./assets/avatars/fake_person.jpg"
+			alt="Calvin Colbert's resume" />
 
-		<h2>About Me</h2>
-		<p>
+		<h2 id="about-me">About Me</h2>
+		<p class="candidate-bio">
 			One two three four five six seven eight nine ten. One two three four five six seven eight nine
 			ten. One two three four five six seven eight nine ten. One two three four five six seven eight
 			nine ten. One two three four five six seven eight nine ten.
 		</p>
 
-		<h2>My Skills</h2>
+		<h2 id="skills">My Skills</h2>
 
-		<ol>
+		<ol id="skills-list">
 			<li>Html</li>
 			<li>Css</li>
 			<li>Git</li>
@@ -28,42 +33,39 @@
 			<li>Advance Css</li>
 		</ol>
 
-		<h2>My Hobbies</h2>
+		<h2 id="hobbies">My Hobbies</h2>
 
-		<ul>
-			<ol>
-				Singing
-			</ol>
-			<ol>
-				Dancing
-			</ol>
-			<ol>
-				Coding
-			</ol>
-			<ol>
-				Writing
-			</ol>
+		<ul id="hobbies-list">
+			<li>Singing</li>
+			<li>Dancing</li>
+			<li>Coding</li>
+			<li>Writing</li>
 		</ul>
 
-		<h2>Contact Me</h2>
+		<h2 id="contacts">Contact Me</h2>
 
-		<table>
+		<table class="contacts-table">
 			<tr>
-				<td>Discord</td>
-				<td>Discordname</td>
+				<th>Discord</th>
+				<td>calvincolbert</td>
 			</tr>
 			<tr>
-				<td></td>
-				<td></td>
+				<th>LinkedIn</th>
+				<td>
+					<a href="https://www.linkedin.com/in/calvin-colbert-540129382/" target="_blank"
+						>Calvin Colbert</a
+					>
+				</td>
 			</tr>
 			<tr>
-				<td></td>
-				<td></td>
+				<th>Email</th>
+				<td><a href="calvincodz@gmail.com">calvincodez@gmail.com</a></td>
 			</tr>
 			<tr>
-				<td></td>
-				<td></td>
+				<th>Github</th>
+				<td><a href="https://github.com/CalCodez">CalCodez</a></td>
 			</tr>
 		</table>
+		<script src="./js/scripts.js"></script>
 	</body>
 </html>
